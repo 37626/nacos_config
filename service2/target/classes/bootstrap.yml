@@ -1,0 +1,13 @@
+server:
+  port: 37628
+
+spring:
+  application:
+    name: service2
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        namespace: 7082015c-22db-4563-be46-c3de3014e7dd
+        group: TEST_GROUP
